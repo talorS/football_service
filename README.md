@@ -23,17 +23,22 @@ node app.js
 
 4. Open your browser or Postman app.
 
-5. Navigate to: http://localhost:8800/api/football (in postman make a GET request with that url)
+5. Navigate to: http://localhost:8800/api/football (in Postman make a GET request with that URL)
 
-• Get a list of matches by team:
-http://localhost:8800/api/football/team/name
+• Get a list of matches by team: http://localhost:8800/api/football/team/name
+replace name with a team name (example : http://localhost:8800/api/football/team/Arsenal)
 
-• Get a list of matches by team & status (played/upcoming):
-http://localhost:8800/api/football/team/name/status
- 
-• Get a list of matches by tournament:
-http://localhost:8800/api/football/tournament/tournamentName
+• Get a list of matches by team & status (played/upcoming): http://localhost:8800/api/football/team/name/status
+replace name with a team name 
+replace status with played/upcoming
+(example : http://localhost:8800/api/football/team/Arsenal/played)
 
-• Get a list of matches by tournament filtered by status:
-http://localhost:8800/api/football/tournament/tournamentName/status
+• Get a list of matches by tournament: http://localhost:8800/api/football/tournament/tournamentName
+replace tournamentName with a tournament name (example : http://localhost:8800/api/football/tournament/fa)
+
+• Get a list of matches by tournament filtered by status: http://localhost:8800/api/football/tournament/tournamentName/status
+replace name with a tournament name 
+replace status with played/upcoming
+(example : http://localhost:8800/api/football/tournament/premier-league/upcoming)
+
  
