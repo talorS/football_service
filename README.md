@@ -16,9 +16,9 @@ Instructions:
 
 1. Extract "football_service" folder and open it.
 
-2. Open the cmd from the folder path.
+2. Open the cmd from that folder path.
 
-3. In order to set on the RESTful API Server - Write the following command in the console:
+3. In order to run the RESTful API Server - Write the following command in the console:
 node app.js
 
 4. Open your browser or Postman app.
